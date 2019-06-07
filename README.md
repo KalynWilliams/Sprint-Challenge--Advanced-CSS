@@ -50,7 +50,7 @@ A preprocessor gives us abilities to code that aren't available to us when just 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Nesting is my favorite concept. It makes my CSS much more manageable and easier to read. Mixins give me the most trouble, but I see the benefit of them and i'm sure i'll find more use for them.
+Nesting is my favorite concept. It makes my CSS much more manageable and easier to read. Mixins give me the most trouble, but I see the benefit of them and I'm sure I'll find more use for them.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
