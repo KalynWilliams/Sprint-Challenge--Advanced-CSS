@@ -37,7 +37,9 @@
     }
 
     .sky , .launch {
-      .none
+      @media @phone {
+      display: none;
+    }
     }
 
   }
@@ -80,7 +82,7 @@
         margin-bottom: 26px;
       }
 
-      .btn() {
+      .btn {
         .btn(@header-font-color, white);
         @media @phone {
           width: 100%;
