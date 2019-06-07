@@ -3,3 +3,22 @@
   display: flex;
   justify-content: center;
 }
+
+.mixin-btn(@bgd-clr, @font-clr) {
+   background: @bgd-clr;
+   color: @font-clr;
+   font-size: 2rem;
+   cursor: pointer;
+   border-radius: 5px;
+   padding: 5px 10px;
+   width: 30%;
+   text-align: center;
+   transition: 0.5s;
+
+   &:hover {
+     background: @font-clr;
+     color: @bgd-clr;
+     border: 1px solid @bgd-clr;
+    transition: 0.5s;
+ }
+}
