@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.mixin-btn(@bgd-clr, @font-clr) {
+.btn(@bgd-clr, @font-clr) {
    background: @bgd-clr;
    color: @font-clr;
    font-size: 2rem;
@@ -21,4 +21,10 @@
      border: 1px solid @bgd-clr;
     transition: 0.5s;
  }
+}
+
+.none() {
+    @media @phone {
+        display: none;
+}
 }
